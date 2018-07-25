@@ -1,1 +1,29 @@
 
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.whp</groupId>
+	<artifactId>dubbo</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+  <relativePath>./dubbo-parent/pom.xml/<relativePath/>
+	<name>ms-parent</name>
+	<url>http://maven.apache.org</url>
+  
+    	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<!-- lombok插件 -->
+			<plugin>
+				<groupId>org.projectlombok</groupId>
+				<artifactId>lombok-maven-plugin</artifactId>
+				<version>${org.projectlombok.lombok-maven.version}</version>
+			</plugin>
+		</plugins>
+	</build>
+</project>
+  
